@@ -1,0 +1,16 @@
+name: TarzaxDiscord
+author: Tarzax
+version: 1.0.0
+api: 4.0.0
+main: tarzax\Discord\Main
+website: https://github.com/TarzaxDev
+
+commands:
+  discord:
+    usage: /discord
+    description: "Discord server link"
+    permission: discord.use
+
+permissions:
+  discord.use:
+    default: true
